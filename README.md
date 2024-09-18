@@ -6,7 +6,7 @@
   - Educación Secundaria Obligatoria (ESO)
   - Grado Medio de Sistemas Microinformáticos y Redes (SMR)
   - (Actual) Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM).
-# Lenguajes:
+### Lenguajes:
  - Java
  - HTML
  - CSS
