@@ -1,4 +1,4 @@
-![](banner.jpg")
+![.](banner.jpg")
 
 # 💻​Hola, soy Alejandro 
 
