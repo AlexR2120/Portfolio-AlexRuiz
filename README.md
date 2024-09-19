@@ -1,4 +1,4 @@
-![]("C:\Users\alumnos\Pictures\banner.jpg")
+![](banner.jpg")
 
 # 💻​Hola, soy Alejandro 
 
