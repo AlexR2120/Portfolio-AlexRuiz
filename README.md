@@ -1,4 +1,4 @@
-![.](banner.jpg")
+![.]([banner.jpg"](https://github.com/AlexR2120/alexruizcev/blob/main/banner.jpg))
 
 # 💻​Hola, soy Alejandro 
 
