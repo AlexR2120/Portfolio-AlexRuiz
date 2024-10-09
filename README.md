@@ -30,5 +30,5 @@
   - Teléfono: +34 658391663
   - LinkedIn: www.linkedin.com/in/alejandro-ruiz-mart%C3%AD-39020b332/
   - GitHub: https://github.com/AlexR2120
-  - CV: CV.pdf
+  - CV: 
     
