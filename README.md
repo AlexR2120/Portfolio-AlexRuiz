@@ -1,7 +1,7 @@
 ![.](IMG/banner.jpg)
 # 💻​Hola, soy Alejandro 
 
-👾​​Soy un estudiante el cuál tiene unas amplias ganas por aprender y seguir aumentando mi conocimiento.​📲​
+👾​​Soy un estudiante el cuál tiene unas amplias ganas por aprender y seguir aumentando su conocimiento.​📲​
 
 ## 📚​FORMACIÓN ACADÉMICA
   - Educación Secundaria Obligatoria (ESO)
