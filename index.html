@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Alejandro Ruiz</title>
+  <style>
+    /* Reset y base */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #fff;
+      color: #3a3a3a;
+      line-height: 1.6;
+    }
+    a {
+      color: #8b0000; /* Granate */
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      color: #8b0000;
+      font-size: 2.8rem;
+      margin-bottom: 8px;
+    }
+    header p {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #555;
+    }
+    .photo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #8b0000;
+      margin: 0 auto 30px auto;
+      display: block;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    section h2 {
+      color: #8b0000;
+      margin-bottom: 12px;
+      border-bottom: 2px solid #8b0000;
+      padding-bottom: 4px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 8px;
+      font-size: 1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #8b0000;
+      color: #fff;
+    }
+    footer {
+      text-align: center;
+      margin: 40px 0 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .photo {
+        width: 110px;
+        height: 110px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img
+        src="https://randomuser.me/api/portraits/men/75.jpg"
+        alt="Foto de Alejandro Ruiz"
+        class="photo"
+      />
+      <h1>Alejandro Ruiz</h1>
+      <p>Desarrollador Web en formación | Técnico en Sistemas | En prácticas en IONOS</p>
+      <p>📧 <a href="mailto:alejandroruiz21203@gmail.com">alejandroruiz21203@gmail.com</a></p>
+    </header>
+
+    <section>
+      <h2>Sobre mí</h2>
+      <p>
+        Tengo 21 años, formado en Sistemas Microinformáticos y Redes (SMR), y actualmente
+        realizando prácticas en Desarrollo de Aplicaciones Multiplataforma (DAM) en
+        IONOS. Me centro en desarrollo web y programación con ganas de seguir creciendo.
+      </p>
+    </section>
+
+    <section>
+      <h2>Lo que puedo ofrecer</h2>
+      <ul>
+        <li><strong>Desarrollo Web:</strong> diseño responsive, formularios, CMS, gestión en hosting.</li>
+        <li><strong>Programación:</strong> aplicaciones en Java, Flutter, lógica clara y práctica.</li>
+        <li><strong>Videojuegos:</strong> proyectos sencillos en Unity, menús y lógica básica.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Proyectos destacados</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Proyecto</th>
+            <th>Descripción</th>
+            <th>Tecnologías</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Portfolio web personal</td>
+            <td>Web propia publicada y administrada en IONOS</td>
+            <td>HTML, CSS, JavaScript, FTP</td>
+          </tr>
+          <tr>
+            <td>Mandangón</td>
+            <td>App de recetas con imágenes e ingredientes</td>
+            <td>Flutter, Firebase, MySQL</td>
+          </tr>
+          <tr>
+            <td>Juego RA Ace (One Piece)</td>
+            <td>Realidad aumentada con carta física y visualización de datos</td>
+            <td>Unity, Vuforia, TextMeshPro</td>
+          </tr>
+          <tr>
+            <td>Formulario web funcional</td>
+            <td>Proyecto de contacto con datos enviados a servidor</td>
+            <td>HTML, PHP</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Tarifas de servicios</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Servicio</th>
+            <th>Precio estimado</th>
+            <th>Detalles</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Página web personal / portfolio</td>
+            <td>60–90 €</td>
+            <td>Diseño responsive, hasta 3 secciones</td>
+          </tr>
+          <tr>
+            <td>Sitio web para negocios</td>
+            <td>100–150 €</td>
+            <td>Web básica para negocios locales con contacto</td>
+          </tr>
+          <tr>
+            <td>Instalación y configuración de WordPress</td>
+            <td>40–70 €</td>
+            <td>Tema, plugins, personalización básica</td>
+          </tr>
+          <tr>
+            <td>Formulario de contacto funcional (PHP)</td>
+            <td>30 €</td>
+            <td>Validación + envío a correo</td>
+          </tr>
+          <tr>
+            <td>Prototipo app móvil (Flutter)</td>
+            <td>Desde 70 €</td>
+            <td>App simple para presentación o proyecto escolar</td>
+          </tr>
+          <tr>
+            <td>Minijuego Unity personalizado</td>
+            <td>Desde 60 €</td>
+            <td>Juego sencillo con menú y UI básica</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      <p>© 2025 Alejandro Ruiz | Portfolio profesional</p>
+    </footer>
+  </div>
+</body>
+</html>
